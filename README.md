@@ -21,5 +21,5 @@ The information regarding suburbs in the region is stored as geographical shape 
 ## 4. Determine the Nearest Train Station to the Property and the Relevant Travel Itineraries 
 
 ## 5. Data Reshaping 
-This part of the program prepares the dataset to be processed for a linear regression model for property price prediction. In order to apply the dataset for the modelling process, the attributes should first satisfies the *linearity*, *normality*, and *independence* assumptions. This part of the program reshapes the dataset for *linearity* and *normality* assumptions. 
+This part of the program prepares the dataset to be processed for a linear regression model for property price prediction. In order to apply the dataset for the modelling process, the attributes should first satisfies the *linearity*, *normality*, and *independence* assumptions. This part of the program reshapes the dataset for *linearity* and *normality* assumptions. This also includes MinMax/Standard scaling process for each feature. 
 
